@@ -50,7 +50,6 @@ public class SandwichShop {
 
         // Calculate the sandwich cost
         double sandwichCost = 0;
-        // Add the
         if (choice1 == 1) {
             // Regular sandwich
             sandwichCost = 5.45;
