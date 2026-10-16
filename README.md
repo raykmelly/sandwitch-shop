@@ -1,3 +1,4 @@
+(Code written by hand by Raymond Melly, README.md generate by Claude)
 # Sandwich Shop
 
 A command-line ordering program written in Java. The user chooses a sandwich size, decides whether to upgrade to a loaded sandwich, enters their age, and the program calculates the final price with an age-based discount. It was built as a practice exercise from Workbook 1C (pp. 104-105) to reinforce reading user input with `Scanner` and making decisions with `if / else if / else`.
@@ -37,10 +38,10 @@ Or open the project in IntelliJ, then right-click `SandwichShop` and choose **Ru
 
 ## Pricing
 
-| Item                | Price  |
-|---------------------|--------|
-| Regular sandwich    | $5.45  |
-| Large sandwich      | $8.95  |
+| Item                     | Price  |
+|--------------------------|--------|
+| Regular sandwich         | $5.45  |
+| Large sandwich           | $8.95  |
 | Loaded upgrade (regular) | +$1.00 |
 | Loaded upgrade (large)   | +$1.75 |
 
