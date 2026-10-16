@@ -57,6 +57,9 @@ public class SandwichShop {
         } else if (choice1 == 2) {
             // Large sandwich
             sandwichCost = 8.95;
+        } else {
+            // Error, unknown input given, retry.
+            System.out.println("[Error]: Unknown input, please try again.");
         }
 
         // Add on the extra cost for a loaded sandwich
@@ -64,6 +67,9 @@ public class SandwichShop {
             sandwichCost += 1;
         } else if (choice2 == 2) {
             sandwichCost += 1.75;
+        } else {
+            // Error, unknown input given, retry.
+            System.out.println("[Error]: Unknown input, please try again.");
         }
 
         // Apply discount
