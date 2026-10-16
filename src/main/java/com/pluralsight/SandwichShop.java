@@ -32,6 +32,7 @@ public class SandwichShop {
         } else {
             // Error, unknown input given, retry.
             System.out.println("[Error]: Unknown input, please try again.");
+            System.exit(0);
         }
 
         // Prompt user for their age
@@ -43,8 +44,10 @@ public class SandwichShop {
         if (age <= 17) {
             // 17 or younger, 10% discount
             discount = 10;
+            System.out.println("You got a 10% discount!");
         }else if (age >= 65) {
             // 65 or older, 20% discount
+            System.out.println("You got a 20% discount!");
             discount = 20;
         }
 
