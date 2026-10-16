@@ -73,5 +73,8 @@ public class SandwichShop {
 
         // Display the final total
         System.out.printf("[Total cost]: $%.2f%n",sandwichCost);
+
+        // Close the scanner
+        scanner.close();
     }
 }
