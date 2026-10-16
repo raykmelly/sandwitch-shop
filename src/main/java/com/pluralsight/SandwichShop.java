@@ -70,6 +70,6 @@ public class SandwichShop {
         sandwichCost -= (sandwichCost * discount/100);
 
         // Display the final total
-        System.out.printf("[Total cost]: %.2f%n",sandwichCost);
+        System.out.printf("[Total cost]: $%.2f%n",sandwichCost);
     }
 }
