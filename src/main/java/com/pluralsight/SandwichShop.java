@@ -39,6 +39,9 @@ public class SandwichShop {
         System.out.println("Type in your age: ");
         int age = scanner.nextInt();
 
+        // Close the scanner
+        scanner.close();
+
         // Calculate the discount for the user
         double discount = 0;
         if (age <= 17) {
@@ -73,8 +76,5 @@ public class SandwichShop {
 
         // Display the final total
         System.out.printf("[Total cost]: $%.2f%n",sandwichCost);
-
-        // Close the scanner
-        scanner.close();
     }
 }
